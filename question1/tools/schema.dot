@@ -1,0 +1,16 @@
+digraph Q1 {
+  graph [rankdir=LR, bgcolor="white", pad="0.3", label="Q1: single distribution centre — design diagram (not SSMS evidence)", labelloc=t, fontsize=18];
+  node [shape=record, fontname="DejaVu Sans", fontsize=11, style=filled, fillcolor="#edf4fa", margin="0.12,0.08"];
+  edge [fontname="DejaVu Sans", fontsize=10];
+  Book [label="Book|PK BookID\lUQ ISBN13\lTitle\lFirstStockedDate\lUnitCost\l"];
+  Retailer [label="Retailer|PK RetailerID\lRetailerName\lDeliveryAddress\l"];
+  SalesOrder [label="SalesOrder|PK SalesOrderID\lFK RetailerID\lCreatedDate\lRequestedDispatchDate\lOrderStatus\l"];
+  SalesOrderLine [label="SalesOrderLine|PK SalesOrderLineID\lFK SalesOrderID\lFK BookID\lOrderedQty\lUQ (SalesOrderID, BookID)\l"];
+  StockBalance [label="StockBalance|PK/FK BookID\lSnapshotDate\lOnHandQty\lQuarantineQty\l"];
+  DispatchLine [label="DispatchLine|PK DispatchLineID\lFK SalesOrderLineID\lDispatchDate\lDispatchedQty\l"];
+  Retailer -> SalesOrder [label="1 : 0..many"];
+  SalesOrder -> SalesOrderLine [label="1 : 0..many"];
+  Book -> SalesOrderLine [label="1 : 0..many"];
+  Book -> StockBalance [label="1 : 0..1"];
+  SalesOrderLine -> DispatchLine [label="1 : 0..many"];
+}

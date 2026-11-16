@@ -1,0 +1,78 @@
+{
+  "engine": "SQLite, explicit dialect translation of supplied T-SQL",
+  "sql_server_verified": false,
+  "tests_passed": 12,
+  "note": "Expected results only. Run original SQL files in SQL Server and take genuine screenshots.",
+  "expected_outputs": {
+    "query1": [
+      {
+        "BookID": 101,
+        "Title": "Coastal Stories",
+        "OutstandingQty": 80,
+        "SaleableQty": 45,
+        "ShortfallQty": 35
+      },
+      {
+        "BookID": 108,
+        "Title": "River Notes",
+        "OutstandingQty": 40,
+        "SaleableQty": 10,
+        "ShortfallQty": 30
+      }
+    ],
+    "query2": [
+      {
+        "BookID": 103,
+        "Title": "Outback Atlas",
+        "SaleableQty": 50,
+        "UnitCost": 15,
+        "SaleableStockCost": 750,
+        "LastDispatchDate": "2026-07-11"
+      },
+      {
+        "BookID": 104,
+        "Title": "Quiet Stars",
+        "SaleableQty": 40,
+        "UnitCost": 10,
+        "SaleableStockCost": 400,
+        "LastDispatchDate": "2026-07-10"
+      },
+      {
+        "BookID": 105,
+        "Title": "Forgotten Gardens",
+        "SaleableQty": 20,
+        "UnitCost": 20,
+        "SaleableStockCost": 400,
+        "LastDispatchDate": null
+      },
+      {
+        "BookID": 108,
+        "Title": "River Notes",
+        "SaleableQty": 10,
+        "UnitCost": 11,
+        "SaleableStockCost": 110,
+        "LastDispatchDate": null
+      }
+    ],
+    "query3": [
+      {
+        "RetailerID": 1,
+        "RetailerName": "Retailer Alpha",
+        "DeliveryAddress": "10 Example Street, Sydney NSW",
+        "RequestedDispatchDate": "2026-11-18",
+        "OutstandingOrders": 2,
+        "OutstandingCopies": 85,
+        "PotentialDispatchReduction": 1
+      },
+      {
+        "RetailerID": 2,
+        "RetailerName": "Retailer Beta",
+        "DeliveryAddress": "20 Example Street, Melbourne VIC",
+        "RequestedDispatchDate": "2026-11-18",
+        "OutstandingOrders": 2,
+        "OutstandingCopies": 40,
+        "PotentialDispatchReduction": 1
+      }
+    ]
+  }
+}
