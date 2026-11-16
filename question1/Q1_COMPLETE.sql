@@ -113,7 +113,7 @@ INSERT dbo.DispatchLine VALUES
 COMMIT TRANSACTION;
 
 -- Counts: Book 8; Retailer 3; SalesOrder 14; SalesOrderLine 15; StockBalance 8; DispatchLine 9.
-SELECT N'Book' AS TableName, COUNT(*) AS RowCount FROM dbo.Book
+SELECT N'Book' AS TableName, COUNT(*) AS [RowCount] FROM dbo.Book
 UNION ALL SELECT N'Retailer',COUNT(*) FROM dbo.Retailer
 UNION ALL SELECT N'SalesOrder',COUNT(*) FROM dbo.SalesOrder
 UNION ALL SELECT N'SalesOrderLine',COUNT(*) FROM dbo.SalesOrderLine
