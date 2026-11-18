@@ -34,7 +34,16 @@ The earlier `Q2_PartB_操作紀錄.md` uses chronological conversation evidence 
 
 ## Suggested figures for the concise Part B answer
 
-Use source images 1, 27, 32, 34, 51 and 56. Retain the complete source document as the audit trail. No standalone image extraction or modified Word report is being published in this step.
+The revised diagnosis-focused draft uses six figure groups, with the detailed placement guide at the end of `Q2_PartB_English_Draft.md`:
+
+- B1: source image1 — initial unmet picking/WM prerequisites.
+- B2(a–c): source images9,10,14 — stock and receipt investigation; optional13,16.
+- B3: source image27 — available710EA after putaway.
+- B4(a–c): source images32,33,34 — movement details, confirmation and corrected delivery state.
+- B5: source image45 — goods-movement completion; optional44 for posting document.
+- B6(a–b): source images51,56 — saved invoice details and completed document flow.
+
+These are source-image positions, not the conversation evidence IDs. The original Word remains unmodified. The outgoing storage-search error screenshot from the conversation is not present as a standalone image in this source; inbound image22 must not be presented as that outgoing error.
 
 ## Preservation
 
