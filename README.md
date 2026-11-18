@@ -22,4 +22,4 @@ Part B 尚未完成；SAP 修正與發票截圖仍待實際操作。
 
 ## 統整參考文獻
 
-[Q1＋Q2 Part A APA 7 文獻表](REFERENCES.md)｜[Word 版](REFERENCES.docx)。最終提交只需統一放置一次。GS1 官方頁面本次受網路政策限制，提交前需核對其標題、日期與內容；詳見來源說明。
+[Q1＋Q2 Part A APA 7 文獻表](REFERENCES.md)｜[Word 版](REFERENCES.docx)。最終提交只需統一放置一次。Part A 結合 GS1 技術來源與兩篇學術綜述。官方頁面及學術文獻線上查核受網路政策限制，提交前需核對其書目資料與內容；詳見來源說明。

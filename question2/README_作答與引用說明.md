@@ -2,7 +2,7 @@
 
 ## 已完成的內容
 
-- `Q2_PartA_English_Draft.md`：Part A 英文作答，含文內引用，可獨立於 Part B 完成。
+- `Q2_PartA_English_Draft.md`：Part A 英文作答，含文內引用，可獨立於 Part B 完成；新版減少命令式句型，加入兩篇學術綜述，並區分 RFID 研究與條碼建議。
 - `Q2_PartA_Working_Draft.docx`：同一份 Part A 的 Word 工作稿，附 Q1＋Q2 Part A 統整文獻。
 - 根目錄 `REFERENCES.md`、`REFERENCES.docx`：統一的 APA 7 參考文獻表。
 - `SOURCE_NOTES.md`：來源用途、查核限制與文內引用對照。
@@ -19,7 +19,7 @@ Part A 針對 OMNIA 的倉儲服務情境，具體建議識別、掃描、資料
 
 ## 待完成的來源核對
 
-本次請求 GS1 官方頁面時，網路代理回覆 `403 Forbidden`，因此未能即時核對頁面全文、精確顯示標題與更新日期。引用使用官方主題頁網址與 n.d.，不是已確認網頁完全沒有日期。提交前請開啟來源核對；若標有適用日期，更新 APA 年份、排序及對應文內引用。詳見 `SOURCE_NOTES.md`。
+本次請求 GS1 官方頁面時，網路代理回覆 `403 Forbidden`，因此未能即時核對頁面全文、精確顯示標題與更新日期。引用使用官方主題頁網址與 n.d.，不是已確認網頁完全沒有日期。提交前請開啟來源核對；若標有適用日期，更新 APA 年份、排序及對應文內引用。學術文獻的 Crossref 查核亦受同樣限制，DOI 與論點適用範圍已列於 `SOURCE_NOTES.md`。
 
 Q1 的教材引用沿用原稿：*Database System Concepts*（第 7 版）。Q1 原始檔案未改寫。
 

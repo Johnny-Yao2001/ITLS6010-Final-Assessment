@@ -15,7 +15,7 @@ Q2 Part A cites five GS1 official topic pages. HTTPS requests on 18 November 202
 | GS1, n.d.-e | SSCC | Unique logistics-unit identity |
 | Silberschatz et al., 2020 | Database System Concepts, 7th edition | Q1 relational design, redundancy and integrity |
 
-SAP mapping, scan checkpoints, exception routing, pilot design and performance measures are recommendations developed for the assignment, not implementation claims made by GS1. EPCIS is mentioned only as an optional later assessment, not as an implemented capability or a claim supported by the EDI page.
+SAP mapping, scan checkpoints, exception routing, pilot design and performance measures are recommendations developed for the assignment, not implementation claims made by GS1. The revised draft omits EPCIS to focus its limited word budget on the initial implementation.
 
 ## Course materials consulted
 
@@ -26,3 +26,12 @@ SAP mapping, scan checkpoints, exception routing, pilot design and performance m
 These are task/context materials rather than additional external evidence cited in the current Part A. They are listed here for transparency and are not given invented publication details in the final bibliography. If the final text explicitly relies on or quotes lecture material, add its verified author/title/date and an appropriate course-material reference.
 
 Q1 setup guides, SQL comments and existing supplementary test outputs were also checked for citation context; the cited external work in Q1 remains the textbook above. Part B has not been drafted, so this is not yet a bibliography of a completed Part B.
+
+## Academic literature added in the revision
+
+- de Koster, Le-Duc, and Roodbergen (2007): literature review of warehouse order-picking design and control. Used to frame process integration, not to claim that the paper evaluates OMNIA or specific GS1 identifiers.
+- Sarac, Absi, and Dauzère-Pérès (2010): review of RFID and supply-chain management. Used as qualified background on identification technology and inventory visibility. RFID and barcode capture are explicitly distinguished; no RFID effect size is transferred to barcode scanning.
+
+The academic works are identifiable published reviews with DOI links. Crossref metadata requests for both DOIs on 18 November 2026 also returned proxy tunnel 403 Forbidden. Bibliographic details and attributed claims have not been verified against live publisher pages or full texts in this session. No quotations, numerical performance claims or page-specific claims are made. Before submission, check the DOI records and read the relevant papers to confirm claim coverage.
+
+The combined reference list now contains eight works: five GS1 pages, two academic reviews for Part A, and the Q1 database textbook.
